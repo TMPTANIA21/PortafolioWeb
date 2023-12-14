@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--metadatos-->
+  <meta charset="UTF-8">
+  <meta name="author" content="Agencia Vagamundos Trip">
+  <meta name="description" content="Portafolio Agencia">
+  <meta name="keywords" content="html, CSS,JavaScript,React">
+  <meta name="viewport" content="widht=device-widht,initial-scale=1">
+  <!--titulo-->
+  <title> Vagamundos Trip | Agencia de Viajes </title>
+  <!--Favicont-->
+  <link rel="Icon" type="image/x-icon" href="VAGAMUNDOS.png">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  
+  <!--CSS-->
+  <link href="style.css" rel="stylesheet">
+  
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family-Quicksand:wght@500&family-Rubik+Dirt&family-Share+Tech+Mono&display-swap" rel="stylesheet">
+</head>
+<body>
+
+     <!-- Barra de navegacion -->
+     <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="VAGAMUNDOS.png" width="200" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Quienes-somos">¿Quiénes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
+
+  <!--Seccion Hero-->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrollador rounded-circle" src="chicav1.jpg" alt="Logo VAGAMUNDOS">
+      <h1>VAGAMUNDOS TRIP</h1>
+
+
+      <!--<h2> ¡Unete al team de Vagabundos trip!.</h2>-->
+
+      <!--Animación con JavaScript-->
+      <h2 class="text-primary mb-4" id="typewriter"></h2>
+     <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="avión2.png" width="200" alt="Aventuras extremas, viajes de diversión, recreación y ecoturismo">
+    </div>
+  </section>
+ 
+
+  <!--¿Quiénes somos?-->
+  <section id="¿Quiénes-somos?" class="¿Quiénes-somos? sección-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Vagamundos</h2>
+      <p class="seccion-texto">Es grandiso ver que estas interesado en formar parte de esta comunidad, que aman conocer
+        y disfrutar de los lugares maravillosos que forman parte de nuestro país; México</p>
+    </div>
+  </section>
+
+  <!--Tours-->
+  <section class="Tours sección-clara">
+    <div class="container text-center">
+      <div class="row">
+
+
+        <!--Peña de Bernal-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-bookmark-heart-fill"></i>
+          <p class="experincia-titulo">Peña de Bernal</p>
+          <img src="bernal.png" height="200" width="200">
+          <p>No puedes visitar Bernal, sin dar un paseo alrededor de su gigantesco monolito, uno de los más grandes del
+            mundo, y el cual dicen provee a sus pobladores de energía vital. Durante el equinoccio de primavera
+            locales y viajeros la visitan para recargarse de vida. Se puede ascender a la Peña en coche o cuatrimoto
+            hasta un mirador y de ahí seguir a pie, eso sí, se requiere de buena condición física, pues la pendiente es
+            bastante pronunciada. Los más aventureros tienen la opción de llegar hasta la cima escalando o haciendo
+            rappel. </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Más Información</span>
+            <span class="badge text-bg-primary">Fotos</span>
+            <span class="badge text-bg-primary">Tips</span>
+            <span class="badge text-bg-primary">Reservar</span>
+          </div>
+        </div>
+        <!--Tepoztlán-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-bookmark-heart-fill"></i>
+          <p class="experincia-titulo">Tepoztlán</p>
+          <img src="tepoz.jpg" height="200" width="200">
+          <p>Tepoztlán es un pueblo mexicano al sur de la Ciudad de México. Es conocido por ser el lugar de nacimiento
+            de Quetzalcóatl, el dios azteca representado con una serpiente emplumada, y por su mercado de artesanías
+            semanal. Un empinado sendero llega a la pirámide azteca del Tepozteco, en la cima de un cerro sobre la
+            ciudad</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Más información</span>
+            <span class="badge text-bg-primary">Fotos</span>
+            <span class="badge text-bg-primary">Tips</span>
+            <span class="badge text-bg-primary">Reservar</span>
+          </div>
+        </div>
+        <!--El Tajín-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-bookmark-heart-fill"></i>
+          <p class="experincia-titulo">El Tajín</p>
+          <img src="Tajin1.jpeg" height="200" width="200">
+          <p>El Tajín es una zona arqueológica precolombina que se encuentra cerca de la ciudad de Papantla, Veracruz,
+            México. Se cree que la ciudad de Tajín fue un centro muy importante y llegó a su apogeo en la transición al
+            Posclásico.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Más información</span>
+            <span class="badge text-bg-primary">Fotos</span>
+            <span class="badge text-bg-primary">Tips</span>
+            <span class="badge text-bg-primary">Reservar</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Proyectos Recientes-->
+  <section id="Tours" class="Tours-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro"> Tours recientes</h2>
+    <h3 class="seccion-descripcion"> Estos han sido los viajes que se han realizado por Vagamundos...</h3>
+   <!-- Galeria de Proyectos -->
+   
+    
+    <div class="container text-center proyectos-contenedor">
+    <div class="row">
+      
+       <!-- Proyecto 1-->
+       <div class="col-12 col-md-6 col-Ig-4">
+        <div class="proyecto">
+        <img src="bernal.png" width="300">
+         <div class="overlay">
+          <p>Proyecto 1 </p>
+          <div class="Iconos-contenedor">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </a>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <!-- Proyecto 2 -->
+     <div class="col-12 col-md-6 col-Ig-4">
+      <div class="proyecto">
+        <img src="Los-Cabos.png" width="300">
+      <div class="overlay">
+        <p>Proyecto 2 </p>
+        <div class="Iconos-contenedor">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </a>
+        </div>
+       </div>
+     </div>
+    </div>
+
+           <!-- Proyecto 3-->
+      <div class="col-12 col-md-6 col-Ig-4">
+        <div class="proyecto">
+        <img src="chiapas1.jpg" width="300">
+         <div class="overlay">
+          <p>Proyecto 3 </p>
+          <div class="Iconos-contenedor">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </a>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <!-- Proyecto 4 -->
+     <div class="col-12 col-md-6 col-Ig-4">
+      <div class="proyecto">
+        <img src="san miguel.jpg" width="300">
+      <div class="overlay">
+        <p>Proyecto 4 </p>
+        <div class="Iconos-contenedor">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </a>
+        </div>
+       </div>
+     </div>
+    </div>
+
+  
+    <!-- Proyecto 5 -->
+    <div class="col-12 col-md-6 col-Ig-4">
+      <div class="proyecto">
+        <img src="tepoz.jpg" width="300">
+      <div class="overlay">
+        <p>Proyecto 5 </p>
+        <div class="Iconos-contenedor">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </a>
+        </div>
+       </div>
+     </div>
+    </div>
+       <!-- Proyecto 6 -->
+      
+    <div class="col-12 col-md-6 col-Ig-4">
+      <div class="proyecto">
+        <img src="veracruz.jpg" width="300" height="300">
+      <div class="overlay">
+        <p>Proyecto 6 </p>
+        <div class="Iconos-contenedor">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </a>
+        </div>
+       </div>
+     </div>
+    </div>
+  
+  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver más Proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+  <!--Testimonios-->
+  <section id="Testimonios" class="Testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos testimonios de clientes felices de Vagamundos...</h3>
+
+    <!--Carrusel-->
+
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+           <img class="testimonio-imagen rounded-circle" src="cliente1.jpg" alt="Foto de Vanessa">
+            <p class="testimonio-texto">Viajar con Vagamundos es una expereincia divertida, hice muchos amigos y me la
+              pase genial durante los días de viaje</p>
+            <div class="testimonio info">
+              <p class="cliente">Vanessa</p>
+              <p class="cargo"> Viajera solitaría</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="cliente2.jpg" alt="Foto de Mary">
+            <p class="testimonio-texto">Viajar es mi pasatiempo favorito, al igual que divertirme en ellos y he conocido
+              a muchas personas que comparten el amor por viajar</p>
+            <div class="testimonio info">
+              <p class="Cliente"> Mary</p>
+              <p class="Cargo"> Viajera Fiestera</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="cliente3.jpg" alt="Foto de Luisa">
+            <p class="testimonio-texto">Sentir la drenalina al mil, es de las cosas que amo, y Vagamundos me ha acercado
+              a realizar muchas aventuras de en sueño</p>
+            <div class="testimonio info">
+              <p class="Cliente">Luisa</p>
+              <p class="Cargo">Viajera Extrema</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+  </section>
+
+  <!--Contacto-->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+
+          <div class="col-12 col-md-4 descripcion">
+             Unete al grupo de viaeros de Vagamundos y comienza tu aventura
+          </div>
+
+          <div class="col-12 col-md-4">
+            <a href="mail to:vagabundos1ofic@gmail.com">
+              <button type="button">
+                 Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página (footer)-->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer logo" src="monophy.gif" width="200" height="100">
+    <p class="footer-texto text-center">¡Forma parte de esta comunidad de viajeros!</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+    </a>
+    </div>
+    <div class="Derechos-de-autor">Creado por Tania Martínez Pilar(2023) &#169;</div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
